@@ -28,4 +28,4 @@ exam_data = {'name':["Anastasia", "Dima", "Katherine", "James", "Emily", "Michae
 exam = pd.DataFrame(exam_data)
 exam.index = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'] 
 result = exam.query('attempts>2')
-print("Number of attempts is greater than 2 : ", result)
+print("Number of attempts in the examination is greater than 2:\n ", result)
